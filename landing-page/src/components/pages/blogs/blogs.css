@@ -1,0 +1,32 @@
+.title_con{
+  margin: 25px 0;
+}
+.title_under_line{
+height: 4px;
+background: blue;
+width: 112px;
+}
+.blog-text-overlay{
+   
+   width: 100%;
+   background-color: rgb(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction:column;
+  justify-content: end;
+  height: 100%;
+}
+/* .card-body{
+  display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-around !important;
+} */
+.blog-img{
+ 
+}
+.box{
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
