@@ -1,8 +1,9 @@
 import React from 'react'
 import blog1 from "../../../images/blog1.jpg"
 import one from "../../../images/one.jpg"
+import two from "../../../images/two.png"
 
-import blog2 from "../../../images/blog2.jpg"
+// import blog2 from "../../../images/blog2.png"
 import "./blogs.css"
 
 function Blogs() {
@@ -31,9 +32,9 @@ function Blogs() {
           <div className="col-lg-4 col-12 col-md-6">
             <div className="box ">
               <div className="card shadow-lg  mb-3 h-100">
-                <img src={blog2} className="card-img-top blog-img" />
+                <img src={two} className="card-img-top blog-img" />
                 <div className="card-body">
-                  <h4 style = {{marginBottom:"70px"}}>
+                  <h4 style = {{marginBottom:"40px"}}>
                     Jenny Lawson is publishing a new book and its sort of a
                     coloring book
                   </h4>
