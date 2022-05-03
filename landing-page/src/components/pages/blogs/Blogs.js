@@ -1,12 +1,16 @@
+// import { Button } from 'bootstrap'
 import React from 'react'
 import blog1 from "../../../images/blog1.jpg"
 import one from "../../../images/one.jpg"
 import two from "../../../images/two.png"
-
-// import blog2 from "../../../images/blog2.png"
+import Button from './button/Button'
 import "./blogs.css"
 
 function Blogs() {
+
+// console.log(process.env.REACT_APP_URL_NAME)
+
+
   return (
     <>
       <div className="container">
@@ -90,11 +94,12 @@ function Blogs() {
               <div className="col-lg-12 col-12 col-md-6">
                 <div className="card bg-transparent border-0">
                   <div className="card-body">
-                    <h5>
+                    <h5 className="card-text mb-4" >
                       Airtel offer 3Gb data a month to comsumer who switch to
                       its 4g service
                     </h5>
-                    <p class="card-text mt-4">Alice due</p>
+                    {/* <p class="card-text mt-4">Alice due</p> */}
+                    <Button lable = "Click" />
                   </div>
                 </div>
               </div>
